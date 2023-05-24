@@ -1,0 +1,5 @@
+name = input("Имя: ")
+old = input("Возраст: ")
+town = input("Адрес: ")
+print("Имя - " + name + "\nВозраст - " + old + "\nАдрес: " + town)
+input("Нажмите Enter чтобы выйти")
