@@ -1,5 +1,5 @@
-name = input("Имя: ")
-old = input("Возраст: ")
-town = input("Адрес: ")
+name = input("Введите имя: ")
+old = input("Введите возраст: ")
+town = input("Введите адрес: ")
 print("Имя - " + name + "\nВозраст - " + old + "\nАдрес: " + town)
 input("Нажмите Enter чтобы выйти")
