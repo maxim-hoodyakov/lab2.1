@@ -1,12 +1,7 @@
 import math
-x1, y1 = 0, 0
-x2, y2 = 3, 0
-x3, y3 = 0, 4
-a = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
-b = math.sqrt((x3 - x2)**2 + (y3 - y2)**2)
-c = math.sqrt((x1 - x3)**2 + (y1 - y3)**2)
-pol = (a + b + c) / 2
-s = math.sqrt(pol * (pol - a) * (pol - b) * (pol - c))
-perimeter = a + b + c
-print("Периметр треугольника:", perimeter)
-print("Площадь треугольника:", s)
+#k1 = int(input('Введите 1 катет'))
+#k2 = int(input('Введите 2 катет'))
+k1 = 5
+k2 = 10
+gipotenuza = float(math.sqrt(k1*k1+k2*k2))
+print("Гипотенуза треугольника:", gipotenuza)
