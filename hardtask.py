@@ -10,4 +10,4 @@ angle_diff = abs(angle_h - angle_m)
 if angle_diff > 180:
     angle_diff = 360 - angle_diff
 
-print("Угол между положением часовой стрелки в начале суток и в указанный момент времени:", angle_diff, "градусов")
+print("Угол:", angle_diff, "градусов")
